@@ -30,7 +30,7 @@ class StoreFront extends Component {
     }
 }
 
-function mapStateToProps(state) {
+function mapStateToProps(state){
     return {
         products: state.products,
         loading: state.loading,
